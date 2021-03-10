@@ -1,16 +1,12 @@
  # Monster Madness
     
 ## Table of Contents
-- [License](#License)
 - [Description](#Description)
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [Testing](#Testing)
 - [Contributing](#Contributing)
 - [Questions](#Questions)
-    
-## License
-> [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) - this project is protected through the Apache license
 
 ## Description
 > Monster Madness is a CLI game which allows the user to choose from a selection of hero's with different abilities and attributes, and attempt to defeat a monster in battle using the tools given! The game features three distinct types of heroes, along with monsters that have varying strength levels and likeliness to flee. The users can use special items, heal, attack, defend, or flee. The monster has all the same options, excluding the ability to use items. This project was built using the Java language
