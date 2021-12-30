@@ -1,5 +1,6 @@
 public class Monster {
 double health= Math.ceil(Math.random() * (901 -575) + 575);
+int swipeDamage = 25;
 
 boolean attackLands() {
     double chanceOfMiss = Math.random();
@@ -15,12 +16,12 @@ int damageDealt() {
     }
     return 110;
 }
-boolean dodge() {
-    double num= Math.random();
-    if (num <= 0.450) {
-        return true;
-    }
-    return false;
+boolean perfectDodge() {
+    double chanceOfSwipe = Math.random();
+    if (chanceOfSwipe > 0.55) {
+        return false;
+    } 
+    return true;
 }
 boolean isAttacking() {
     if (Math.random() <= 0.50) {

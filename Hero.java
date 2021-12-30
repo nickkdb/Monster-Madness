@@ -1,6 +1,6 @@
 public class Hero {
     int health;
-    int swipe;
+    int swipeDamage;
     int cleanStrikeDamage;
     int powerStrikeDamage;
     double powerStrikePercentage;
@@ -51,7 +51,13 @@ public class Hero {
     boolean isAttacking() {
         if (Math.random() <= 0.50) {
             return true;
+        } else return false;
+    }
+    boolean perfectDodge() {
+        double chanceOfSwipe = Math.random();
+        if (chanceOfSwipe > dexterity) {
+            return false;
         } 
-        return false;
+        return true;
     }
 }
