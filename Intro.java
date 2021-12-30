@@ -41,7 +41,7 @@ public class Intro {
         } else if (choice.equals("guide")) {
             openGuide();
         } else {
-            
+            Game.createCharacter(choice);
         }
     }
 
